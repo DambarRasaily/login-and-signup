@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+	min-height:100vh;
+	width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../background3.jpg");
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	backdrop-filter: blur(6px);
+	overflow: hidden;
+  }
+  
+  .signup-box {
+    width: 350px;
+    height: 445px;
+    margin: 15px auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+  
+  .login-box {
+    width: 350px;
+    height: 300px;
+    margin: 15px  auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 18px;
+  
+  }
+  .para-2 {
+    text-align: center;
+    color: rgb(3, 70, 12);
+    font-size: 13.5px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #4912e2d0;
+    border: none;
+  }
+  .para-2 a:hover{
+    color: rgba(12, 2, 2, 0.993);
+    border-radius: 8px;
+  }
+  
+  .container{
+    height: 410px;
+    width: 40em;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 13px;
+    }
+    .container2{
+      height: 530px;
+      width: 40em;
+      background-color: white;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 13px;
+      }
+    input[type="radio"] {
+      margin: 0 10px 0 0;
+    }
+    
+    
+    .branding{
+      width: 165px;
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    }
+    
+    .branding h1{
+      font-size: 16px;
+    }
+    h1{
+      color: black;
+      font-size: 20px;
+    }
+    .btn{
+      color:black;
+      width: 90px;
+      height: 25px;
+      border: 2px solid black;
+      margin-top: 20px;
+      font-size: 13px;
+      border: none;
+      border-radius: 8px;
+      transform: 0.5 ease;
+    }
+    .btn:hover {
+      background-color: #3103198a;
+      color: rgba(12, 2, 2, 0.993);
+    }
